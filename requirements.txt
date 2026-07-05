@@ -1,0 +1,48 @@
+# =============================================================================
+# AURA Quantitative Research Assistant — Dependencies
+# =============================================================================
+
+# --- Core: Voice & Audio ---
+faster-whisper>=1.0.0
+pvporcupine>=3.0.0
+pyttsx3>=2.90
+PyAudio>=0.2.14
+sounddevice>=0.4.6
+noisereduce>=3.0.0
+scipy>=1.11.0
+numpy>=1.24.0,<2.0.0
+webrtcvad-wheels>=2.0.10
+
+# --- Core: Intent Matching ---
+fuzzywuzzy[speedup]>=0.18.0
+
+# --- Core: LLM ---
+ollama>=0.2.0
+
+# --- Core: System Commands (Windows) ---
+pyautogui>=0.9.54
+pycaw>=20230407
+comtypes>=1.2.0
+
+# --- Core: GUI ---
+PyQt5>=5.15.0
+
+# --- Configuration ---
+python-dotenv>=1.0.0
+
+# --- Database (PostgreSQL + pgvector) ---
+SQLAlchemy>=2.0.0
+psycopg2-binary>=2.9.9
+pgvector>=0.2.4
+
+# --- Embeddings & NLP ---
+sentence-transformers>=2.2.0
+transformers>=4.35.0
+torch>=2.0.0
+
+# --- PDF Processing ---
+PyPDF2>=3.0.0
+
+# --- Testing ---
+pytest>=7.4.0
+pytest-cov>=4.1.0

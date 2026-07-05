@@ -1,0 +1,25 @@
+# Environment and secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Audio files
+audio.wav
+screenshot.png
+
+# IDE
+.vscode/
+.idea/
+
+# Models (downloaded at runtime)
+models/
+
+# OS
+Thumbs.db
+.DS_Store
